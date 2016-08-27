@@ -1,0 +1,19 @@
+0.  JPG PNG and BMP support 2^24 colors and GIF 256 colors.
+1.  gif
+2.  Compressing and decompressing a certian file format repeatedly results in quality loss of that file which is called losssy compression. In contrast during loseless compression, quality remains the same.
+3.  JPEG
+4.  When a file is deleted in FAT system data is not lost just file is renamed and the metadata pointing to that file gets updated.
+5.  Replace the disc using all zeros. Any software providing the functionality of file sanitizer can be used.
+6.  Header file defining integer with specific width.
+7.  all these datatypes are defined in stdint.h and define the width of integer as 8,32,... unsigned as well as signed.
+8.  BYTE is 1, WORD is 2 bytes and LONG as well as DWORD is 4 bytes.
+9.  0x4D42
+10. bfSize specifies the size of the bitmap file and biSize specifies the size of the structure.
+11. It means bitmap is top-down in nature.
+12. biBitCount
+13. because outfile can not be created.
+14. reading a rgb triple at a time.
+15. because scanline should be in multiple of 4.
+16. Skip padding
+17. Start from current position of file read.
+18. Some person's face

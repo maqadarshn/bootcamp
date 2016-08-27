@@ -1,0 +1,11 @@
+0.  a very long word indeed and means a lung disease caused by inhaling sand dust or fine ash. 
+1.  returns resource usage measures for a process(es), like CPU time and memory used.
+2.  16
+3.  saving time by not sending values just sending the reference also save space
+4.  The for loop first checks whether the current character is an alphabet or if the character is not the first character of word is an apostrophe. Next we check if the first character is digit then we skip till next word. When we find the whole word we pass that word for spellcheck. 
+5.  We may also speed up the process by ignoring words containing numbers in it or we may also check invalid words which can never make a word.
+6.  So that no one could change their values later
+7.  Created a has table for each character and a linked list node with a word and next pointer
+8.  5
+9.  Changed my code by implementing hash table as bucket for each character for seperating the word list
+10. Could have changed this implementation to seperate this bucket in equal size.
