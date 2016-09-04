@@ -11,17 +11,11 @@ int main(void)
     }  
     while ((rows < 0) || (rows > 23));
     
-    for (int i = 0; i <= (rows - 1); i++){
-        int s = rows;    
-        while (s > (i + 1)){
+    for (int i = 0; i < rows; i++){
+        for( int j=rows; j>(i+1); j--)
             printf(" ");
-            s--;
-        }    
-   
-        int height = 0; 
-        for (height = 0; height < (i + 2); height++){
+        for(int j=0; j<(i+2); j++)
             printf("#");
-        }
         printf("\n");
     }
     
