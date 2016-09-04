@@ -3,10 +3,9 @@
 
 int main(void)
 {
-    int minutes;
-    int bottles;
+    int minutes, bottles;
     printf("minutes: ");
     minutes = GetInt();
-    bottles=minutes*12;
+    bottles = minutes*12;
     printf("bottles: %d \n", bottles);
 }
